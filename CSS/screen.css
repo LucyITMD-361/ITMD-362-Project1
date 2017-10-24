@@ -467,6 +467,9 @@ textarea {
   font: inherit; /* 2 */
 }
 /**************************************************/
+html{
+	font: normal 100%/1.5;
+}
 body{
 	background-color: #98FB98;
 	
@@ -481,26 +484,24 @@ body{
 
 h1{
 	padding-top: 30px;
-	font-family: 'Great Vibes', cursive, Times New Roman;
+	font-family: 'Great Vibes', cursive;
 	text-align: center;
-	font-size: 4em;
+	font-size: 5.202em; /**the modular scale is 1em and the ratio is 1.125*/
+	
 }
 .headingTwo{
-	font-family: 'Cinzel', serif, Times New Roman;
+	font-family: 'Cinzel', serif;
 	text-align: center;
-	font-size: 1em;
+	font-size: 1.266em;
 	color: #006400;
 	font-weight: 600;
 }
-h3{
-	font-family: 'Arapey', serif, Times New Roman;
-	color: #006400;
-}
+
 p{
 	text-align: center;
-	font-family: 'Arapey', serif, Times New Roman;
+	font-family: 'Arapey', serif;
 	color: #006400;
-	
+	font-size: 1.125em;
 }
 
 #first_Sent{
@@ -563,10 +564,11 @@ input[type=tel], select {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    background: -webkit-gradient(linear, left top, left bottom, from(#F5C21B), to(#D17000));
-    -webkit-background-clip: submit;
-    display: inline-block;
-    position: relative;
-
+	  background: -webkit-gradient(linear, left top, left bottom, from(#F5C21B), to(#D17000));
+  -webkit-background-clip: submit;
+  display: inline-block;
+  position: relative;
 }
+
+
 
