@@ -12,7 +12,24 @@ function ValidateEmail(mail)
 function validateForm() {
     var x = document.forms["formInfo"]["first_name"].value;
     if (x == "") {
-        alert("Name must be filled out");
+        alert("first name must be filled out");
         return false;
     }
 }
+//lastname
+function validateForm() {
+    var x = document.forms["formInfo"]["last_name"].value;
+    if (x == "") {
+        alert("last name must be filled out");
+        return false;
+    }
+}
+//phone
+function validateForm() {
+    var x = document.forms["formInfo"]["phone_field"].value;
+    if (x == "") {
+        alert("phone number must be filled out");
+        return false;
+    }
+}
+
