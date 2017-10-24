@@ -481,24 +481,24 @@ body{
 
 h1{
 	padding-top: 30px;
-	font-family: 'Great Vibes', cursive;
+	font-family: 'Great Vibes', cursive, Times New Roman;
 	text-align: center;
 	font-size: 4em;
 }
 .headingTwo{
-	font-family: 'Cinzel', serif;
+	font-family: 'Cinzel', serif, Times New Roman;
 	text-align: center;
 	font-size: 1em;
 	color: #006400;
 	font-weight: 600;
 }
 h3{
-	font-family: 'Arapey', serif;
+	font-family: 'Arapey', serif, Times New Roman;
 	color: #006400;
 }
 p{
 	text-align: center;
-	font-family: 'Arapey', serif;
+	font-family: 'Arapey', serif, Times New Roman;
 	color: #006400;
 	
 }
