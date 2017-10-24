@@ -517,13 +517,13 @@ p{
 #Button{
 	text-align: center;
 }
-@media screen and (min-width: 480px) {
-    fieldset{
+@media screen and (max-width: 320px) {
+    #formContext{
 	max-width: 100%;
     }
 }
-@media screen and (min-width: 960px) {
-    fieldset {
+@media screen and (min-width: 320px) and (max-width: 960px) {
+    #formContext{
         max-width: 100%;
     }
 }
