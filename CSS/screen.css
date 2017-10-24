@@ -467,7 +467,9 @@ textarea {
   font: inherit; /* 2 */
 }
 /**************************************************/
-
+html{
+ 	font: normal 100%/1.5;
+}
 body{
 	background-color: #98FB98;
 	
