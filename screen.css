@@ -215,15 +215,18 @@ textarea {
 }
 /**************************************************/
 body{
-	background-color: #DCDCDC;
+	background-color: #98FB98;
 }
 h1{
+	padding-top: 30px;
+	font-family: 'Great Vibes', cursive;
 	text-align: center;
-	font-size: 3em;
+	font-size: 4em;
 }
 .headingTwo{
+	font-family: 'Cinzel', serif;
 	text-align: center;
-	font-size: 2em;
+	font-size: 1em;
 }
 p{
 	text-align: center;
