@@ -9,18 +9,22 @@ function ValidateEmail(mail)
     return (false)  
 }  
 
- function validateForm()
-{
-  var fields = ["text","email","tel"]
-
-  var i, l = fields.length;
-  var fieldname;
-  for (i = 0; i < l; i++) {
-    fieldname = fields[i];
-    if (document.forms["register"][fieldname].value === "") {
-      alert(fieldname + " can not be empty");
-      return false;
-    }
-  }
-  return true;
+function checkForm(){
+	var first_name = document.getElementById("first_name").value;
+	var last_name = document.getElementById("last_name").value;
+	var email_field = document.getElementById("mail").value;
+	var phone_field = document.getElementById("tel").value;
+	if (fName != "" && lName !="" && email != "" && phone != ""){
+		if(mailVal(email) && telVal(phone)) {
+			fff();
+			setTimeout(function(){location.reload(true)}, 1000);
+		}else if(!mailVal(email)){
+			document.getElementById("mail").style.borderColor = "red";
+		}
+	}
+	console.log(fName);
 }
+
+var form = document.getElementsByTagName('button')[0];
+form.addEventListener("click", function(form){form.preventDefault()});
+form.addEventListener("click", checkForm, false);
