@@ -584,7 +584,7 @@ img {
     max-width:100%;height:auto;
     height: auto;
     width: 300px;
-    position: relative;
+    //position: relative;
     left: 600px;
     top: 0px;
     z-index: -1;
