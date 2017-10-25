@@ -580,8 +580,9 @@ img {
     filter: alpha(opacity=20);
     opacity: 0.2;
     border-radius: 8px;
+    width: 100%;
     height: auto;
-    width:300px;
+    width: 300px;
     position: absolute;
     left: 600px;
     top: 0px;
